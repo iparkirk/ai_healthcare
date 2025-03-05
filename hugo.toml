@@ -1,22 +1,7 @@
 baseURL = "https://iparkirk.github.io/ai_healthcare/"
 title = "AI Healthcare"
 theme = "hugo-book"
-publishDir = "public"
 
-relativeURLs = true
-canonifyURLs = true
-
-# Book configuration
-disablePathToLower = true
-enableGitInfo = true
-
-# Needed for mermaid/katex shortcodes
-[markup]
-[markup.goldmark.renderer]
-  unsafe = true
-
-[markup.tableOfContents]
-  startLevel = 1
 
 [params]
   BookTheme = "light"
