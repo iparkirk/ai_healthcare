@@ -2,8 +2,8 @@ baseURL = "https://iparkirk.github.io/ai_healthcare/"
 title = "AI Healthcare"
 theme = "hugo-book"
 
-canonifyURLs = true  # Ensure URLs are absolute
-relativeURLs = false  # Avoid relative path issues
+RelativeURLs=true
+CanonifyURLs=true
 
 [params]
   BookTheme = "light"
