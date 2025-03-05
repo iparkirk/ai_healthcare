@@ -1,10 +1,13 @@
 baseURL = "https://iparkirk.github.io/ai_healthcare/"
-languageCode = "en-us"
 title = "AI Healthcare"
 theme = "hugo-book"
+
+canonifyURLs = true  # Ensure URLs are absolute
+relativeURLs = false  # Avoid relative path issues
 
 [params]
   BookTheme = "light"
   BookToC = true
   BookSearch = true
+
 
