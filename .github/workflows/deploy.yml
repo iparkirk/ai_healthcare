@@ -23,6 +23,7 @@ jobs:
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: "latest"
+          extended: true  # Ensures the extended version is installed
 
       - name: Build Hugo Site
         run: hugo --minify
